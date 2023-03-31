@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+	<h1>Tree Inspection checklist</h1>
+	    <ol>
+		<li>Foliage</li>
+		<li>Structure</li>
+		<li>Root Zone for fungus or fruiting bodies</li>
+		<li>Trunk for defects</li>
+	    </ol>
+	 <h1>Things to pack</h1>
+	    <ul>
+		<li>Toothpaste</li>
+		<li>Book</li>
+		<li>Clothes</li>
+		<li>Binoculars</li>
+    </body>
+</html>
+    

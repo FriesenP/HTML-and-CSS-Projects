@@ -1,0 +1,23 @@
+/*--------------------
+    GENERIC STYLES
+    ----------------*/
+
+body {
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 165%;
+    text-align: center;
+    color: greenyellow;
+}
+
+h1, h2 {
+    font-size: 55px;
+    text-shadow: 2px 2px 5px rgb(228, 158, 8);
+    text-align: center
+}
+
+form input[type="text"] {
+    width: 20%;
+    margin: 5px;
+    border: 2px solid red;
+}

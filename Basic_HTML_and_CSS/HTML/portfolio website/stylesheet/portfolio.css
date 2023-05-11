@@ -164,6 +164,7 @@ footer {
     bottom: 0; /* This ensures no space between the bottom of the video and the bottom of the page */
     min-width: 100%; /* This ensures the video is displayed across the full width of the page */
     z-index: -1; /* This places the video behind the other elements on the page */
+    filter: grayscale(75%); /* This rids our pictures of 75% of their color */
 }
 
 /* Screens that are 576px and smaller will not display the background video */

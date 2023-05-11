@@ -1,5 +1,0 @@
-<nav>
-		<a href="Assignment.html">Home</a>
-		<a href="Brown Border Collie.html">Pictures</a>
-		<a href="Dog_Video.html">Border Collies Playing</a>
-	    </nav>

@@ -1,6 +1,0 @@
-<form action="" method="get">
-    First name: <input type="text" name="First_Name"><br>
-    Last name: <input type="text" name="Last_Name"><br>
-<!--You can put additional text here such as email, password, etc.-->
-    <input type="submit" value="Submit">
-</form>

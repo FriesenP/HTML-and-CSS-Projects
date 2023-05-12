@@ -6,8 +6,6 @@ This is a display of some sample websites that I made using HTML and CSS.
 Projects
 - Arborist service & reports website
 - Friesen consulting website (bootstrap4)
-- My portfolio website
-
 
 Arborist service & reports site
 This page is an example home page for a tree service company. It's styled using CSS and conatains a navbar, image containers, and a form.

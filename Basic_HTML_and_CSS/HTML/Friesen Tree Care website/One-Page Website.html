@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Friesen Tree Care</title>
+	    <meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="CSS/one_page_website.css">
+		<script src="JS/one_page_website.js"defer></script>
+	</head>
+	
+	<body>
+		
+	    <!-- NAV -->
+		<nav>
+		    <nav>
+			    <ul>
+				    <a href="#Home" id="link"><h1>Home</h1></a>
+					<a href="#Gallery" id="link"><h1>Gallery</h1></a>
+					<a href="#Contact us" id="link"><h1>Conatct us</h1></a>
+				</ul>
+            </nav>
+        </nav>
+        <!-- END NAV -->
+
+        <!-- HOME -->
+        <div id="home">
+            <div>
+			    <div>
+				    <h1><u>Friesen Tree Care</u></h1>
+					<p>
+						Friesen Tree Care is a small company based in beautiful British Columbia! We specialize in large tree removals
+						in tight locations. If we cant take down trees conventionaly with ropes and pulleys then we use cranes to assist.
+						Cranes are becoming more of a part of our operations with the increase of housing and development. 
+					</p>
+					<p>
+						With the increase of development and housing comes the removal of trees to create room for these bulidings to be
+						built. Typically municipalities have bylaws in place to protect trees and retain as many as possible. During the 
+						process of development the tree's that are being retainied get fencing put up around the root zones to create what
+						is called a "tree protection zone".
+					</p>
+					<p>
+						Unfortunatly most trees dont show signs of root zone impact or nearby comstruction for at least a year, so what
+						happens often is once these buliding are done being built a year or two down the road these trees will sometimes 
+						die, and thats where we come in.
+					</p>
+				</div>
+			</div>	
+		</div>
+		<!-- END HOME -->
+		
+		<!-- GALLERY -->
+		<section>
+		    <div id="Gallery">
+		        <h1><u>Gallery</u></h1>
+				<div class="container">
+		        	<div class="row">
+						<div class="column">
+					  		<img src="images/thumbs/photo_1_column.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+						</div>
+						<div class="column">
+					  		<img src="images/thumbs/photo_2_column.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+						</div>
+						<div class="column">
+					  		<img src="images/thumbs/photo_3._column.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+						</div>
+						<div class="column">
+					  		<img src="images/thumbs/photo_4_column.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+						</div>
+					</div>
+				</div>  
+				  <!-- The Modal/Lightbox -->
+				<div id="myModal" class="modal">
+					<span class="close cursor" onclick="closeModal()">&times;</span>
+					<div class="modal-content">
+				  
+					  <div class="mySlides">
+						<div class="numbertext">1 / 4</div>
+						<img src="images/thumbs/photo_1.jpg" style="width:100%">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">2 / 4</div>
+						<img src="images/thumbs/photo_2.jpg" style="width:100%">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">3 / 4</div>
+						<img src="images/thumbs/photo_3.jpg" style="width:100%">
+					  </div>
+				  
+					  <div class="mySlides">
+						<div class="numbertext">4 / 4</div>
+						<img src="images/thumbs/photo_4.jpg" style="width:100%">
+					  </div>
+				  
+					  <!-- Next/previous controls -->
+					  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				  
+					  <!-- Caption text -->
+					  <div class="caption-container">
+						<p id="caption"></p>
+					  </div>
+				  
+					  <!-- Thumbnail image controls -->
+					  <div class="column">
+						<img class="demo" src="images/thumbs/photo_1_thumb.jpg" onclick="currentSlide(1)" alt="Large dead Grand fir removal, 
+						but the crane couldn't reach it all. So we had to tie into the crane to get up nice and high to take a small top">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="images/thumbs/photo_2_thumb.jpg" onclick="currentSlide(2)" alt="Dead Douglas fir in a very expensive
+						 landscape where nothing could drop on the vegetation below">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="images/thumbs/photo_3_thumb.jpg" onclick="currentSlide(3)" alt="Old growth Western Red Cedar which 
+						had a large dead top to be removed">
+					  </div>
+				  
+					  <div class="column">
+						<img class="demo" src="images/thumbs/photo_4_thumb.jpg" onclick="currentSlide(4)" alt="Victory stance on that old Cedar with
+						 the help of the crane">
+					  </div>
+					</div>
+				</div>
+					
+					<!-- VIDEO CONTAINER 1 -->
+				    <div>
+				        <div>
+							<div class="container">
+								<video src="./Videos/Video_1.mp4" type="video/mp4" style="width:350" height="575" controls muted autoplay loop alt="">
+								<div class="bottom-left">bottom left</div>
+								<div class="top-left">top left</div>
+								<div class="top-right">top right</div>
+								<div class="bottom-right">bottom right</div>
+								<div class="centered">centered</div>
+  						    </div>
+								<p>We used a crane to minimize the risk around the power lines</p>
+							</div>
+						</div>
+					</div>
+  					<!-- END VIDEO CONTAINER 1 -->
+				</div>
+			</div>
+		</section>
+        <!-- END GALLERY -->
+		
+		<!-- Contact us -->
+		<section>
+		    <div id="Contact us">
+			    <div>
+				    <h1><u>Contact us</u></h1>
+					<div>
+					    <h2>Your tree consultation is one step away</h2>
+						<p>
+						    Please provide us with your basic contact information.
+						</p>
+						<div>
+						    <form action="" method="post">
+							    <input class="Book your consultation" type="text" value="First Name">
+							    <input class="Book your consultation" type="text" value="Last Name">
+							    <input class="Book your consultation" type="text" value="Email Address">
+							    <input class="Book your consultation" type="text" value="Phone Number">
+							    <input type="submit" value="submit">
+							    <br /><label class="terms">Terms and Conditions</label>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- END CONTACT US -->
+		
+		<!-- FOOTER -->
+		<div>
+		    This site was created by Friesen Consulting 2023 &copy
+		</div>
+		<!-- END FOOTER -->
+	</body>
+</html>	
